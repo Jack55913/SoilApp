@@ -27,7 +27,7 @@ class HomePage extends StatelessWidget {
           children: <Widget>[
             PhraseCard(),
             SizedBox(
-              height: 200,
+              height: 150,
               child: Image.asset('assets/images/img3.png')),
             ContinueButton(),
           ],
@@ -36,6 +36,9 @@ class HomePage extends StatelessWidget {
     );
   }
 }
+
+
+// Hola a todos, ésto no aparece en el archivo anterior
 
 
 
